@@ -10,7 +10,7 @@
   
   .menu-bars {
     margin-left: 2rem;
-    font-size: 2rem;
+    font-size: 3rem;
     background: none;
     color: styles.$primary-white;
   }
@@ -77,4 +77,22 @@
   
   span {
     margin-left: 16px;
+  }
+
+  .logo {
+    margin-left: 7rem;
+  }
+
+  .logo-main{
+    font-weight: 700;
+    font-size: 4.4rem;
+    text-align: left;
+    color: styles.$primary-white;
+  }
+
+  .logo-caption{
+    font-size: 1.4rem;
+    text-align: right;
+    margin-left: 2rem;
+    color: styles.$hover-green;
   }
