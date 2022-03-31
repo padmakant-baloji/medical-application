@@ -17,13 +17,14 @@ export const NavigationMenu = () => {
           <Link to="#" className={css["menu-bars"]}>
             <FaIcons.FaBars onClick={showSidebar} />
           </Link>):
-        // ) : (
-        //   <div className={css["navbar-toggle"]}>
             (<Link to="#" className={css["menu-bars"]}>
               <AiIcons.AiOutlineClose onClick={showSidebar} />
             </Link>
-          // </div>
         )}
+        <div className={css['logo']}>
+          <p className={css['logo-main']}>SMP</p>
+          <p className={css['logo-caption']}> Sushruta Medical Practice </p>
+        </div>
       </div>
       <nav
         className={
